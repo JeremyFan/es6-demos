@@ -1,0 +1,26 @@
+{
+  "name": "es6demo",
+  "version": "1.0.0",
+  "description": "some demos about es6 syntax",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel -w src --out-dir dist"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "jeremyfan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "cli-table": "^0.3.1",
+    "co": "^4.6.0"
+  }
+}
